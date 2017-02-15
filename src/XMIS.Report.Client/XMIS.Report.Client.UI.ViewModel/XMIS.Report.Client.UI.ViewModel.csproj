@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F5CF185-694D-477C-8C16-3202F023A9B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XMIS.Report.Client.UI.ViewModel</RootNamespace>
+    <AssemblyName>XMIS.Report.Client.UI.ViewModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DashboardViewModel.cs" />
+    <Compile Include="DepartmentViewModel.cs" />
+    <Compile Include="LoginViewModel.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XMIS.Report.Client.Context\XMIS.Report.Client.Context.csproj">
+      <Project>{7A4FE12F-4A61-4920-8F4B-964279006E35}</Project>
+      <Name>XMIS.Report.Client.Context</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Client.Domain\XMIS.Report.Client.Domain.csproj">
+      <Project>{A5C24A07-5173-4705-9221-81E2E97FDE0F}</Project>
+      <Name>XMIS.Report.Client.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Client.UI.Utility\XMIS.Report.Client.UI.Utility.csproj">
+      <Project>{74105842-509a-4ed6-9e64-e8ee7f4ceaac}</Project>
+      <Name>XMIS.Report.Client.UI.Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Service.Front.Client.Common\XMIS.Report.Service.Front.Client.Common.csproj">
+      <Project>{cfdaf0e5-f341-4c83-972b-9fcbf0ed3430}</Project>
+      <Name>XMIS.Report.Service.Front.Client.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Service.Front.Client.Contract\XMIS.Report.Service.Front.Client.Contract.csproj">
+      <Project>{F7D29115-C474-42A6-B891-4217CB4E4463}</Project>
+      <Name>XMIS.Report.Service.Front.Client.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Service.Front.Client.Stub\XMIS.Report.Service.Front.Client.Stub.csproj">
+      <Project>{048d2eb3-281e-4a1a-be14-94576bece714}</Project>
+      <Name>XMIS.Report.Service.Front.Client.Stub</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

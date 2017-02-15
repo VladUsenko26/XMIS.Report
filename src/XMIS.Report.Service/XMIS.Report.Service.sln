@@ -1,0 +1,138 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service", "XMIS.Report.Service\XMIS.Report.Service.csproj", "{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Domain", "XMIS.Report.Domain\XMIS.Report.Domain.csproj", "{CCD26184-322E-4EB9-86C5-9724ED17919A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Contract", "XMIS.Report.Service.Contract\XMIS.Report.Service.Contract.csproj", "{18066662-6F43-4A2F-AF6D-64AB19D2D915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Test", "XMIS.Report.Service.Test\XMIS.Report.Service.Test.csproj", "{07989ED9-6132-4760-87C6-ED9983BA3A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Console", "XMIS.Report.Service.Console\XMIS.Report.Service.Console.csproj", "{ADFDB999-9462-4BBF-A323-968FE6E59A39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMIS.Report.Service.Front", "XMIS.Report.Service.Front", "{8E995A3F-DB08-43C0-9551-9FCB5B4EEBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Console", "XMIS.Report.Service.Front.Console\XMIS.Report.Service.Front.Console.csproj", "{585DAD27-1413-4BE4-8F3A-0C39BDDC341C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Common", "XMIS.Report.Service.Front.Common\XMIS.Report.Service.Front.Common.csproj", "{5486D1CF-8F8B-455D-95CB-F0395C5239B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Windows", "XMIS.Report.Service.Front.Windows\XMIS.Report.Service.Front.Windows.csproj", "{57A99D1F-6192-4E0B-A398-5C5DCFCE6769}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMIS.Report.Core", "XMIS.Report.Core", "{FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Core.DAL", "XMIS.Report.Core.DAL\XMIS.Report.Core.DAL.csproj", "{1FF6C3E4-709C-4F72-80F2-407E11F77C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Transform", "XMIS.Report.Transform\XMIS.Report.Transform.csproj", "{C197ED53-040E-46C0-8718-1B9B0E1D43A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Core.DAL.Test", "XMIS.Report.Core.DAL.Test\XMIS.Report.Core.DAL.Test.csproj", "{F8262AA1-48AF-4B6E-8084-F5F46BAECF91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{79FBE929-96A7-4E15-86BA-65B1C6439C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.DAL.Exception", "Common.DAL.Exception\Common.DAL.Exception.csproj", "{DFA23A35-684D-41C5-B947-669EC5B24F71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Exception", "Common.Exception\Common.Exception.csproj", "{22386DA6-2321-4FE7-8B1E-F14EC636F85C}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "XMIS.Report.Service.ModelingProject", "XMIS.Report.Service.ModelingProject\XMIS.Report.Service.ModelingProject.modelproj", "{BF0A9228-20B3-4651-A2EB-D998DFE08006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMIS.Report.Service.CodeMap", "XMIS.Report.Service.CodeMap", "{7E3ACACD-F22D-497F-930D-6F9BE8B2D925}"
+	ProjectSection(SolutionItems) = preProject
+		XMIS.Report.Service.CodeMap\XMIS.Report.Service.CodeMap.dgml = XMIS.Report.Service.CodeMap\XMIS.Report.Service.CodeMap.dgml
+		XMIS.Report.Service.CodeMap\XMIS.Report.Service.Contract.CodeMap.dgml = XMIS.Report.Service.CodeMap\XMIS.Report.Service.Contract.CodeMap.dgml
+		XMIS.Report.Service.CodeMap\XMIS.Report.Service.Core.CodeMap.dgml = XMIS.Report.Service.CodeMap\XMIS.Report.Service.Core.CodeMap.dgml
+		XMIS.Report.Service.CodeMap\XMIS.Report.Service.OperationProcessor.CodeMap.dgml = XMIS.Report.Service.CodeMap\XMIS.Report.Service.OperationProcessor.CodeMap.dgml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Core.Processor", "XMIS.Report.Core.Processor\XMIS.Report.Core.Processor.csproj", "{1D3F365B-F862-4250-9A74-7C397A6B0CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Core.Processor.Test", "XMIS.Report.Core.Processor.Test\XMIS.Report.Core.Processor.Test.csproj", "{88A3D5CD-5DFB-4455-8756-1412AAE153C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD26184-322E-4EB9-86C5-9724ED17919A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD26184-322E-4EB9-86C5-9724ED17919A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD26184-322E-4EB9-86C5-9724ED17919A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD26184-322E-4EB9-86C5-9724ED17919A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18066662-6F43-4A2F-AF6D-64AB19D2D915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18066662-6F43-4A2F-AF6D-64AB19D2D915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18066662-6F43-4A2F-AF6D-64AB19D2D915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18066662-6F43-4A2F-AF6D-64AB19D2D915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07989ED9-6132-4760-87C6-ED9983BA3A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07989ED9-6132-4760-87C6-ED9983BA3A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07989ED9-6132-4760-87C6-ED9983BA3A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07989ED9-6132-4760-87C6-ED9983BA3A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADFDB999-9462-4BBF-A323-968FE6E59A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADFDB999-9462-4BBF-A323-968FE6E59A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADFDB999-9462-4BBF-A323-968FE6E59A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADFDB999-9462-4BBF-A323-968FE6E59A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585DAD27-1413-4BE4-8F3A-0C39BDDC341C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585DAD27-1413-4BE4-8F3A-0C39BDDC341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585DAD27-1413-4BE4-8F3A-0C39BDDC341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585DAD27-1413-4BE4-8F3A-0C39BDDC341C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5486D1CF-8F8B-455D-95CB-F0395C5239B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5486D1CF-8F8B-455D-95CB-F0395C5239B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5486D1CF-8F8B-455D-95CB-F0395C5239B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5486D1CF-8F8B-455D-95CB-F0395C5239B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57A99D1F-6192-4E0B-A398-5C5DCFCE6769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57A99D1F-6192-4E0B-A398-5C5DCFCE6769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57A99D1F-6192-4E0B-A398-5C5DCFCE6769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57A99D1F-6192-4E0B-A398-5C5DCFCE6769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF6C3E4-709C-4F72-80F2-407E11F77C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF6C3E4-709C-4F72-80F2-407E11F77C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF6C3E4-709C-4F72-80F2-407E11F77C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF6C3E4-709C-4F72-80F2-407E11F77C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C197ED53-040E-46C0-8718-1B9B0E1D43A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C197ED53-040E-46C0-8718-1B9B0E1D43A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C197ED53-040E-46C0-8718-1B9B0E1D43A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C197ED53-040E-46C0-8718-1B9B0E1D43A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8262AA1-48AF-4B6E-8084-F5F46BAECF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8262AA1-48AF-4B6E-8084-F5F46BAECF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8262AA1-48AF-4B6E-8084-F5F46BAECF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8262AA1-48AF-4B6E-8084-F5F46BAECF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA23A35-684D-41C5-B947-669EC5B24F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA23A35-684D-41C5-B947-669EC5B24F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA23A35-684D-41C5-B947-669EC5B24F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA23A35-684D-41C5-B947-669EC5B24F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22386DA6-2321-4FE7-8B1E-F14EC636F85C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22386DA6-2321-4FE7-8B1E-F14EC636F85C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22386DA6-2321-4FE7-8B1E-F14EC636F85C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22386DA6-2321-4FE7-8B1E-F14EC636F85C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0A9228-20B3-4651-A2EB-D998DFE08006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0A9228-20B3-4651-A2EB-D998DFE08006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0A9228-20B3-4651-A2EB-D998DFE08006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0A9228-20B3-4651-A2EB-D998DFE08006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3F365B-F862-4250-9A74-7C397A6B0CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3F365B-F862-4250-9A74-7C397A6B0CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3F365B-F862-4250-9A74-7C397A6B0CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3F365B-F862-4250-9A74-7C397A6B0CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A3D5CD-5DFB-4455-8756-1412AAE153C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A3D5CD-5DFB-4455-8756-1412AAE153C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A3D5CD-5DFB-4455-8756-1412AAE153C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A3D5CD-5DFB-4455-8756-1412AAE153C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585DAD27-1413-4BE4-8F3A-0C39BDDC341C} = {8E995A3F-DB08-43C0-9551-9FCB5B4EEBAB}
+		{5486D1CF-8F8B-455D-95CB-F0395C5239B7} = {8E995A3F-DB08-43C0-9551-9FCB5B4EEBAB}
+		{57A99D1F-6192-4E0B-A398-5C5DCFCE6769} = {8E995A3F-DB08-43C0-9551-9FCB5B4EEBAB}
+		{1FF6C3E4-709C-4F72-80F2-407E11F77C79} = {FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}
+		{C197ED53-040E-46C0-8718-1B9B0E1D43A8} = {FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}
+		{F8262AA1-48AF-4B6E-8084-F5F46BAECF91} = {FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}
+		{DFA23A35-684D-41C5-B947-669EC5B24F71} = {79FBE929-96A7-4E15-86BA-65B1C6439C88}
+		{22386DA6-2321-4FE7-8B1E-F14EC636F85C} = {79FBE929-96A7-4E15-86BA-65B1C6439C88}
+		{1D3F365B-F862-4250-9A74-7C397A6B0CA3} = {FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}
+		{88A3D5CD-5DFB-4455-8756-1412AAE153C1} = {FD3B2CA1-7E93-4C83-B91A-C165C4CDCB30}
+	EndGlobalSection
+EndGlobal

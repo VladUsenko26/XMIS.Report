@@ -1,0 +1,4 @@
+C:\XMIS.Report.Client\XMIS.Report.Client.Domain\bin\Release\XMIS.Report.Client.Domain.dll
+C:\XMIS.Report.Client\XMIS.Report.Client.Domain\bin\Release\XMIS.Report.Client.Domain.pdb
+C:\XMIS.Report.Client\XMIS.Report.Client.Domain\obj\Release\XMIS.Report.Client.Domain.dll
+C:\XMIS.Report.Client\XMIS.Report.Client.Domain\obj\Release\XMIS.Report.Client.Domain.pdb

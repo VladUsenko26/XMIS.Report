@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XMIS.Report.Core.Processor.FormQueryProcessor.Form16QueryProcessor" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAIAAAAAAAAQAQAAAAEAAAACAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>FormQueryProcessor\Form16QueryProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.FormQueryProcessor.Form7QueryProcessor" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CEIAIAAAAAAAAQAQAAAAEAAAACAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>FormQueryProcessor\Form7QueryProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.Helpers.AgeOperationHelper">
+    <Position X="2.75" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\AgeOperationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.Helpers.VillagerHelper">
+    <Position X="5.5" Y="11.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\VillagerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.AgeLessThan14AdmissionOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\AgeLessThan14AdmissionOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.IsWithMotherOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\IsWithMotherOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.VillagerPatientAtTheBeginOfTheDayOperationProcessor" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\VillagerPatientAtTheBeginOfTheDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.AdmissionPatientOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\AdmissionPatientOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.AgeLessThan17AdmissionOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\AgeLessThan17AdmissionOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DaybedOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DaybedOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DaybedVillagerOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DaybedVillagerOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DeathOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DeathOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DeathPriorToDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DeathPriorToDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DischargePatientOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DischargePatientOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.DischargePatientPriorToDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\DischargePatientPriorToDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.SickPatientFromTheBeginOfPeriodOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\SickPatientFromTheBeginOfPeriodOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.SickPatientOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\SickPatientOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.SickVillagerPatientOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\SickVillagerPatientOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.TransferFromOtherDepartmentOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\TransferFromOtherDepartmentOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.TransferPriorToDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\TransferPriorToDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.TransferToOtherDepartmentOperationProcessor" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="8" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\TransferToOtherDepartmentOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form16OperationProcessor.VillagerAdmissionOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form16OperationProcessor\VillagerAdmissionOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.AdmissionPatientForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\AdmissionPatientForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.AdmissionPatientFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\AdmissionPatientFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.AgeLessThan17AdmissionForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\AgeLessThan17AdmissionForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DaybedFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DaybedFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DaybedVillagerFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DaybedVillagerFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DeathForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DeathForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DeathFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DeathFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DeathPriorToDayForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DeathPriorToDayForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DischargePatientForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DischargePatientForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DischargePatientFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DischargePatientFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.DischargePatientPriorToDayForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\DischargePatientPriorToDayForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.PatientAtTheBeginOfTheDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\PatientAtTheBeginOfTheDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.PatientAtTheBeginOfThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\PatientAtTheBeginOfThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferFromOtherDepartmentForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferFromOtherDepartmentForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferFromOtherDepartmentFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferFromOtherDepartmentFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferPriorToDayForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferPriorToDayForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferPriorToDayFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferPriorToDayFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferToOtherDepartmentForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferToOtherDepartmentForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.TransferToOtherDepartmentFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\TransferToOtherDepartmentFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.VillagerAdmissionForThePastDayOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\VillagerAdmissionForThePastDayOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.Form7OperationProcessor.VillagerAdmissionFromTheBeginOfTheMonthOperationProcessor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\Form7OperationProcessor\VillagerAdmissionFromTheBeginOfTheMonthOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.AdmissionPatientCommonOperationProcessor" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\AdmissionPatientCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.AgeLessThan17AdmissionCommonOperationProcessor" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\AgeLessThan17AdmissionCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DaybedCommonOperationProcessor" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DaybedCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DaybedVillagerCommonOperationProcessor" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DaybedVillagerCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DeathCommonOperationProcessor" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DeathCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DeathPriorToDayCommonOperationProcessor" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DeathPriorToDayCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DischargePatientCommonOperationProcessor" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DischargePatientCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.DischargePatientPriorToDayCommonOperationProcessor" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\DischargePatientPriorToDayCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.SickPatientCommonOperationProcessor" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\SickPatientCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.SickVillagerPatientCommonOperationProcessor" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\SickVillagerPatientCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.TransferFromOtherDepartmentCommonOperationProcessor" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\TransferFromOtherDepartmentCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.TransferPriorToDayCommonOperationProcessor" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\TransferPriorToDayCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.TransferToOtherDepartmentCommonOperationProcessor" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\TransferToOtherDepartmentCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Core.Processor.OperationProcessor.OperationProcessor.Common.VillagerAdmissionCommonOperationProcessor" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProcessor\OperationProcessor.Common\VillagerAdmissionCommonOperationProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

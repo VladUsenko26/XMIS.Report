@@ -1,0 +1,1 @@
+installutil.exe XMIS.Report.Service.Front.Windows.exe -U > log.txt

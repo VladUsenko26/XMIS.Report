@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.UI", "XMIS.Report.Client.UI\XMIS.Report.Client.UI.csproj", "{672E3BFE-7635-4F61-8610-7B10431E42FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.UI.ViewModel", "XMIS.Report.Client.UI.ViewModel\XMIS.Report.Client.UI.ViewModel.csproj", "{4F5CF185-694D-477C-8C16-3202F023A9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.UI.Control", "XMIS.Report.Client.UI.Control\XMIS.Report.Client.UI.Control.csproj", "{C0C41B53-7527-4BBB-9DE2-844DB5C07AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.UI.Utility", "XMIS.Report.Client.UI.Utility\XMIS.Report.Client.UI.Utility.csproj", "{74105842-509A-4ED6-9E64-E8EE7F4CEAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.Test", "Report.Client.Test\XMIS.Report.Client.Test.csproj", "{34A8EA88-B05F-4CBA-B1B6-444E0182D4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.Context", "XMIS.Report.Client.Context\XMIS.Report.Client.Context.csproj", "{7A4FE12F-4A61-4920-8F4B-964279006E35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.Console", "XMIS.Report.Client.Console\XMIS.Report.Client.Console.csproj", "{06A28C66-B9A4-4DCC-BB45-4CD7E63A8315}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Client.Stub", "XMIS.Report.Service.Front.Client.Stub\XMIS.Report.Service.Front.Client.Stub.csproj", "{048D2EB3-281E-4A1A-BE14-94576BECE714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Client.Contract", "XMIS.Report.Service.Front.Client.Contract\XMIS.Report.Service.Front.Client.Contract.csproj", "{F7D29115-C474-42A6-B891-4217CB4E4463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Client.Domain", "XMIS.Report.Client.Domain\XMIS.Report.Client.Domain.csproj", "{A5C24A07-5173-4705-9221-81E2E97FDE0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMIS.Report.Service.Front.Client", "XMIS.Report.Service.Front.Client", "{E359221B-8697-4CD6-9BF7-EFC032B41FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Client.Common", "XMIS.Report.Service.Front.Client.Common\XMIS.Report.Service.Front.Client.Common.csproj", "{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMIS.Report.Service.Front.Client.UAT", "XMIS.Report.Service.Front.Client.UAT\XMIS.Report.Service.Front.Client.UAT.csproj", "{9B216D17-8630-4004-A863-2503CFE85493}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMIS.Report.Client.CodeMap", "XMIS.Report.Client.CodeMap", "{EF69DFA1-AB35-4FE4-AA18-576A47A9E4B6}"
+	ProjectSection(SolutionItems) = preProject
+		XMIS.Report.Client.CodeMap\XMIS.Report.Client.Context.CodeMap.dgml = XMIS.Report.Client.CodeMap\XMIS.Report.Client.Context.CodeMap.dgml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{672E3BFE-7635-4F61-8610-7B10431E42FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672E3BFE-7635-4F61-8610-7B10431E42FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672E3BFE-7635-4F61-8610-7B10431E42FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672E3BFE-7635-4F61-8610-7B10431E42FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F5CF185-694D-477C-8C16-3202F023A9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5CF185-694D-477C-8C16-3202F023A9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5CF185-694D-477C-8C16-3202F023A9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5CF185-694D-477C-8C16-3202F023A9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C41B53-7527-4BBB-9DE2-844DB5C07AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C41B53-7527-4BBB-9DE2-844DB5C07AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C41B53-7527-4BBB-9DE2-844DB5C07AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C41B53-7527-4BBB-9DE2-844DB5C07AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74105842-509A-4ED6-9E64-E8EE7F4CEAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74105842-509A-4ED6-9E64-E8EE7F4CEAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74105842-509A-4ED6-9E64-E8EE7F4CEAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74105842-509A-4ED6-9E64-E8EE7F4CEAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A8EA88-B05F-4CBA-B1B6-444E0182D4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A8EA88-B05F-4CBA-B1B6-444E0182D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A8EA88-B05F-4CBA-B1B6-444E0182D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A8EA88-B05F-4CBA-B1B6-444E0182D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4FE12F-4A61-4920-8F4B-964279006E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4FE12F-4A61-4920-8F4B-964279006E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4FE12F-4A61-4920-8F4B-964279006E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4FE12F-4A61-4920-8F4B-964279006E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A28C66-B9A4-4DCC-BB45-4CD7E63A8315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A28C66-B9A4-4DCC-BB45-4CD7E63A8315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A28C66-B9A4-4DCC-BB45-4CD7E63A8315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A28C66-B9A4-4DCC-BB45-4CD7E63A8315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048D2EB3-281E-4A1A-BE14-94576BECE714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048D2EB3-281E-4A1A-BE14-94576BECE714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048D2EB3-281E-4A1A-BE14-94576BECE714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048D2EB3-281E-4A1A-BE14-94576BECE714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D29115-C474-42A6-B891-4217CB4E4463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D29115-C474-42A6-B891-4217CB4E4463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D29115-C474-42A6-B891-4217CB4E4463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D29115-C474-42A6-B891-4217CB4E4463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C24A07-5173-4705-9221-81E2E97FDE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C24A07-5173-4705-9221-81E2E97FDE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C24A07-5173-4705-9221-81E2E97FDE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C24A07-5173-4705-9221-81E2E97FDE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B216D17-8630-4004-A863-2503CFE85493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B216D17-8630-4004-A863-2503CFE85493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B216D17-8630-4004-A863-2503CFE85493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B216D17-8630-4004-A863-2503CFE85493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{048D2EB3-281E-4A1A-BE14-94576BECE714} = {E359221B-8697-4CD6-9BF7-EFC032B41FE4}
+		{F7D29115-C474-42A6-B891-4217CB4E4463} = {E359221B-8697-4CD6-9BF7-EFC032B41FE4}
+		{CFDAF0E5-F341-4C83-972B-9FCBF0ED3430} = {E359221B-8697-4CD6-9BF7-EFC032B41FE4}
+		{9B216D17-8630-4004-A863-2503CFE85493} = {E359221B-8697-4CD6-9BF7-EFC032B41FE4}
+	EndGlobalSection
+EndGlobal

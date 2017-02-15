@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="XMIS.Report.Client.UI.Control.DatePickerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- START DATE -->
+        <StackPanel Grid.Column="0" Margin="7">
+            <TextBlock Text="Начальная дата:" />
+            <TextBlock
+                Text="{Binding SelectedDate, StringFormat = 'dd.MM.yyyy 08:00:00' ,ElementName=CalendarDateStart}" />
+
+            <Calendar
+                Name="CalendarDateStart"
+                SelectedDate="{Binding Path=StartDateTime, Mode=TwoWay}"
+                IsTodayHighlighted="True" />
+        </StackPanel>
+        <!-- END DATE -->
+        <StackPanel Grid.Column="1" Margin="7">
+            <TextBlock Text="Конечная дата:" />
+            <TextBlock Text="{Binding SelectedDate, StringFormat = 'dd.MM.yyyy 07:59:59', ElementName=CalendarDateEnd}" />
+
+            <Calendar
+                Name="CalendarDateEnd"
+                SelectedDate="{Binding Path=EndDateTime, Mode=TwoWay}"
+                IsTodayHighlighted="True" />
+        </StackPanel>
+    </Grid>
+</UserControl>

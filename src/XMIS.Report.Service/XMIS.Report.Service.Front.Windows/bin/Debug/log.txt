@@ -1,0 +1,37 @@
+Microsoft (R) .NET Framework Installation utility Version 4.6.79.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe assembly's progress.
+The file is located at C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.InstallLog.
+Installing assembly 'C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.InstallLog
+   assemblypath = C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe
+Installing service XMIS.Report.ReportService...
+Creating EventLog source XMIS.Report.ReportService in log Application...
+
+An exception occurred during the Install phase.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+
+The Rollback phase of the installation is beginning.
+See the contents of the log file for the C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe assembly's progress.
+The file is located at C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.InstallLog.
+Rolling back assembly 'C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.InstallLog
+   assemblypath = C:\XMIS.Report.Service\XMIS.Report.Service\XMIS.Report.Service.Front.Windows\bin\Debug\XMIS.Report.Service.Front.Windows.exe
+Restoring event log to previous state for source XMIS.Report.ReportService.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+
+The Rollback phase completed successfully.
+
+The transacted install has completed.
+The installation failed, and the rollback has been performed.

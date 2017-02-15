@@ -1,0 +1,13 @@
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Service.Front.Client.Common.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Service.Front.Client.Common.pdb
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\Newtonsoft.Json.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Client.Domain.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Service.Front.Client.Contract.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Client.Domain.pdb
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\XMIS.Report.Service.Front.Client.Contract.pdb
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\bin\Release\Newtonsoft.Json.xml
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\obj\Release\XMIS.Report.Service.Front.Client.Common.csprojResolveAssemblyReference.cache
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\obj\Release\XMIS.Report.Service.Front.Client.Common.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Common\obj\Release\XMIS.Report.Service.Front.Client.Common.pdb

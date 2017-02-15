@@ -1,0 +1,10 @@
+C:\XMIS.Report\src\XMIS.Report.Service\Common.Exception\bin\Debug\Common.Exception.dll
+C:\XMIS.Report\src\XMIS.Report.Service\Common.Exception\bin\Debug\Common.Exception.pdb
+C:\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.csprojResolveAssemblyReference.cache
+C:\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.dll
+C:\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.pdb
+C:\XMIS.Report.05.06.16\XMIS.Report\src\XMIS.Report.Service\Common.Exception\bin\Debug\Common.Exception.dll
+C:\XMIS.Report.05.06.16\XMIS.Report\src\XMIS.Report.Service\Common.Exception\bin\Debug\Common.Exception.pdb
+C:\XMIS.Report.05.06.16\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.csprojResolveAssemblyReference.cache
+C:\XMIS.Report.05.06.16\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.dll
+C:\XMIS.Report.05.06.16\XMIS.Report\src\XMIS.Report.Service\Common.Exception\obj\Debug\Common.Exception.pdb

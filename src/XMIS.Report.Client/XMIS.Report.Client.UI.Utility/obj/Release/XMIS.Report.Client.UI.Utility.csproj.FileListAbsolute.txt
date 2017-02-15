@@ -1,0 +1,4 @@
+C:\XMIS.Report.Client\XMIS.Report.Client.UI.Utility\bin\Release\XMIS.Report.Client.UI.Utility.dll
+C:\XMIS.Report.Client\XMIS.Report.Client.UI.Utility\bin\Release\XMIS.Report.Client.UI.Utility.pdb
+C:\XMIS.Report.Client\XMIS.Report.Client.UI.Utility\obj\Release\XMIS.Report.Client.UI.Utility.dll
+C:\XMIS.Report.Client\XMIS.Report.Client.UI.Utility\obj\Release\XMIS.Report.Client.UI.Utility.pdb

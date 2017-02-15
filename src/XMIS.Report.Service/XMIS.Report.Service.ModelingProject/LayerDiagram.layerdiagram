@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="56699d53-7501-4adf-8233-92de1d65af8a" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="a6c4d7ea-12da-4704-9787-8cf5bd158725" name="Layer1" />
+    <layer Id="0d480fa7-a7e1-4692-9e0f-149355d67500" name="XMIS.Report.UI">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="d32aab1b-a5fe-403a-a223-57dd30daf3e1" direction="Forward">
+          <layerMoniker Id="a6c4d7ea-12da-4704-9787-8cf5bd158725" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+  </layers>
+</layerModel>

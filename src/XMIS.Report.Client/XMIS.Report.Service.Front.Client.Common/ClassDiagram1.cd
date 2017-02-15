@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Context.ProcessorContext">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\ProcessorContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Context.ServiceContext">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIBAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Context\ServiceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Configuration.HubConfigurator">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Controllers\Configuration\HubConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Configuration.ProcessorConfigurator">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Configuration\ProcessorConfigurator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Operation.CollectionProcessor">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Controllers\Operation\CollectionProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Operation.ReportProcessor">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\Operation\ReportProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Operation.SystemConnectProcessor">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Controllers\Operation\SystemConnectProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.Operation.SystemEnterProcessor">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Controllers\Operation\SystemEnterProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.ProcessorManager">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAQ=</HashCode>
+      <FileName>Controllers\ProcessorManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.Controllers.ProcessorManagerFactory">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\ProcessorManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMIS.Report.Service.Front.Client.Common.FrontServiceClient" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAIAEAAAAIAEBAAAAAAAAAAAgCAAACA=</HashCode>
+      <FileName>FrontServiceClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

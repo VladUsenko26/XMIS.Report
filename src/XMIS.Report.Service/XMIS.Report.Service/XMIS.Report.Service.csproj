@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EC56D78-9EB0-4B38-87AB-9F6DEFEAE3FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XMIS.Report.Service</RootNamespace>
+    <AssemblyName>XMIS.Report.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigDataManager\DalManagerFactory.cs" />
+    <Compile Include="ConfigDataManager\DALManagerFactoryConfigurationSection.cs" />
+    <Compile Include="Converters\DataTableToXMLConverter.cs" />
+    <Compile Include="HospitalizationDataManagerStub.cs" />
+    <Compile Include="QueryProcessorManager.cs" />
+    <Compile Include="ReportListDataManagerStub.cs" />
+    <Compile Include="ReportListManager.cs" />
+    <Compile Include="ReportProcessorManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XMIS.Report.Core.DAL\XMIS.Report.Core.DAL.csproj">
+      <Project>{1ff6c3e4-709c-4f72-80f2-407e11f77c79}</Project>
+      <Name>XMIS.Report.Core.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Core.Processor\XMIS.Report.Core.Processor.csproj">
+      <Project>{1d3f365b-f862-4250-9a74-7c397a6b0ca3}</Project>
+      <Name>XMIS.Report.Core.Processor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Domain\XMIS.Report.Domain.csproj">
+      <Project>{ccd26184-322e-4eb9-86c5-9724ed17919a}</Project>
+      <Name>XMIS.Report.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMIS.Report.Service.Contract\XMIS.Report.Service.Contract.csproj">
+      <Project>{18066662-6f43-4a2f-af6d-64ab19d2d915}</Project>
+      <Name>XMIS.Report.Service.Contract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\XMIS.Report.Service.Front.Console\App.config">
+      <Link>App.config</Link>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReportTemplate\form16.xsl" />
+    <Content Include="ReportTemplate\form7.xsl">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

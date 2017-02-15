@@ -1,0 +1,7 @@
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\bin\Release\XMIS.Report.Service.Front.Client.Contract.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\bin\Release\XMIS.Report.Service.Front.Client.Contract.pdb
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\bin\Release\XMIS.Report.Client.Domain.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\bin\Release\XMIS.Report.Client.Domain.pdb
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\obj\Release\XMIS.Report.Service.Front.Client.Contract.csprojResolveAssemblyReference.cache
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\obj\Release\XMIS.Report.Service.Front.Client.Contract.dll
+C:\XMIS.Report.Client\XMIS.Report.Service.Front.Client.Contract\obj\Release\XMIS.Report.Service.Front.Client.Contract.pdb
